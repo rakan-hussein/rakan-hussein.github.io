@@ -28,7 +28,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%);
     color: white;
     z-index: 10;
 }
@@ -171,7 +171,7 @@ svg {
 }
 
 .skill {
-    display:none;
+    visibility:hidden;
     position: relative;
     /* display: none; */
     border: none;
@@ -201,14 +201,23 @@ svg {
 #optimal {
     right: -100rem;
 }
+.panel-container{
+    position: absolute;
+    /* max-width: 90rem; */
+    /* width: max-content; */
+    /* width: fit-content; */
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+    
+}
 .panel{    
     margin: 10px;
     padding:1rem;
     letter-spacing: 2px;
-}
-.panel-container{
-    display: flex;
+    /* display: flex;
     justify-content: center;
+     */
 }
 #panel1{
     background-color: #003680;
@@ -218,7 +227,22 @@ svg {
     background-color: purple;
     color: #00fffd;
 }
+.panel img{
+    height:16rem;
+}
+/* @media only screen and (max-width: 800px) {
+    .inv {
+        display: none;
+    }
+} */
 .carousel{
-    /* width: 37rem; */
+    width: 37rem;
     margin-bottom: 1rem;
 }
+/* .skills{
+    display: none;
+} */
+
+/* .abs-card{
+    width:;
+} */
