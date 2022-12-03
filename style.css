@@ -204,7 +204,7 @@ svg {
 .panel{    
     margin: 10px;
     padding:1rem;
-    letter-spacing: 2px;
+    letter-spacing:2px;
 }
 .panel-container{
     display: flex;
